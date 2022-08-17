@@ -42,11 +42,13 @@
     font-size: 15px;
     height: 25px;
     align-items: center;
+    padding-top: 15px;
 }
 
 .PlayListCheckbox{
     position: relative;
     right: 8px;
+    bottom: 9px;
 }
 
 .PlayListRank{
