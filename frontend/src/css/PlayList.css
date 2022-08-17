@@ -1,0 +1,129 @@
+.PlayListDiv{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(219, 219, 219, 0.473);
+}
+
+.PlyTitle{
+    font-size: 38px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.PlayListBar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.WriteBtn3{
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 10px;
+    background-color: white;
+    color: #F1C164;
+    border: 1px solid white;
+
+    margin-left: 20px;
+}
+
+.WriteBtn3:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    background-color: #F1C164;
+    border: 1px solid #F1C164;
+    color: white;
+
+}
+
+.AlbumPhoto{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.PlayListMusicBar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Icon{
+    position: relative;
+}
+
+
+.PlyBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:15px;
+    flex-direction: row;
+}
+
+.PreviousPage:hover, .NextPage:hover{
+    background-color: #F1C164;
+    color: white;
+}
+
+.PagingNumberDiv{
+    display: flex;
+    align-items: center;
+    
+}
+
+.PreviousPage, .NextPage{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid #F1C164;
+}
+
+.PreviousPage, .NextPage{
+    margin: 10px;
+    background-color: white;
+}
+
+.PlayListHeaderBox{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+
+}
+
+.SnsModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InterLockBtn1, .InterLockBtn2, .InterLockBtn3{
+    border-radius: 10px;
+    width: 300px;
+    height: 70px;
+    margin: 10px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 18px;
+    background-color: rgba(219, 219, 219, 0.473);
+    color: #2e2e2e;
+}
+
+.InterLockBtn1:hover{
+    color: #000671;
+    border: 5px solid #000671;
+    background-color: white;
+}
+
+.InterLockBtn2:hover{
+    color: #02bff9;
+    border: 5px solid #02bff9;
+    background-color: white;
+}
+
+.InterLockBtn3:hover{
+    color: #0068fa;
+    border: 5px solid #0068fa;
+    background-color: white;
+
+}

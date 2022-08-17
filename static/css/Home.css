@@ -1,0 +1,94 @@
+/*MainDiv*/
+.MainDiv{
+    margin: 30px;
+}
+
+.MainTopDiv{
+    background-color: rgba(128, 128, 128, 0.222);
+    border-radius: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainPlyPhoto{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+.MainBottomDiv{
+    padding: 20px;
+}
+
+.MainTopTenText{
+    font-size: 50px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.TopTenBar{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 15px;
+    height: 25px;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+
+.TopTenCheckbox{
+    position: relative;
+    right: 8px;
+    bottom: 9px;
+}
+
+.Rank{
+    position: relative;
+    right: 33px
+}
+
+.MusicDetail{
+    position:relative;
+    right: 10px;
+}
+
+.Album{
+    position:relative;
+    left: 65px;
+}
+
+.Like{
+    position:relative;
+    left: 66px;
+}
+
+.Listen{
+    position:relative;
+    left: 35px;
+}
+
+.Push{
+    position:relative;
+    left: 12px;
+}
+
+.TopTenRealAlbum{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.RealAlbumPhoto{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.RealMusicDetail{
+    display: flex;
+    align-items: center;
+}

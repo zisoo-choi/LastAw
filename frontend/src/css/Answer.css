@@ -1,0 +1,80 @@
+.AnswerTitle{
+ text-align:left;
+ padding-left: 50px;
+ padding-top: 15px;
+ padding-right: 50px;
+
+}
+
+.AnswerIcon{
+    display: flex;
+}
+
+.Comment{
+    padding-left: 10px;
+}
+
+
+.AnswerCenter{
+    text-align: center;
+    align-items: center;
+    padding-top: 3px;
+
+    border: 3px solid  rgba(219, 219, 219, 0.473);
+    width: 95%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+
+
+}
+
+input[placeholder='댓글을 입력하세요'] {
+    border: 0px solid;
+    width: 92%;
+    height: 10vh;
+    background-color: antiquewhite;
+
+}
+
+.AnswerBar{
+    position: relative;
+    top: 219px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input:focus{
+    outline:none;
+}
+
+.Fly{
+    color: rgba(60, 60, 60, 0.473);
+}
+
+.FlyIcon{
+    background: none;
+    border: 0px solid;
+}
+
+.SmallBox2{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    height: 70vh;
+}
+
+.MusicTalkDiv2{
+    height: 95vh;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(219, 219, 219, 0.473);
+}
