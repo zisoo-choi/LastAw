@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 40px 0 30px 0;
 }
 
 .LoginLineBox{
@@ -61,16 +61,17 @@
     width: 250px;
     height: 30px;
     margin: 5px;
+    border-radius: 3px;
 }
 
 input[placeholder='ID'] {
-    width: 243px;
+    width: 250px;
     height: 25px;
     margin: 5px;
 }
 
 input[placeholder='PW'] {
-    width: 243px;
+    width: 250px;
     height: 25px;
     margin: 5px;
 }
@@ -90,11 +91,15 @@ button[type='submit']{
 .AppleBtn:hover,
 .TwitterBtn:hover,
 .LoginPageBtn:hover{
-    background-color: aliceblue;
-    border: 1px solid white;
+    background-color: #2e2e2e;
+    color: white;
 }
 
 .LoginFooter{
     position: relative;
     top: 25px;
+}
+
+.LoginPageBtn{
+    border-radius: 3px;
 }

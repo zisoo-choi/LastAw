@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 40px 0 30px 0;
 }
 
 .SignUpLineBox{
@@ -46,6 +46,7 @@ input[placeholder='아이디'] {
     height: 30px;
     position: relative;
     top: 1px;
+    border-radius: 5px;
 }
 
 .SignUpIdTxt{
@@ -111,4 +112,15 @@ input[placeholder='이메일 인증'] {
 .SignUpBottomBtn{
     width: 80px;
     height: 30px;
+    border-radius: 5px;
+}
+
+.SignUpBottomBtn:hover{
+    background-color: #2e2e2e;
+    color: white;
+}
+
+.SignUpCheckBtn:hover{
+    background-color: #2e2e2e;
+    color: white;
 }

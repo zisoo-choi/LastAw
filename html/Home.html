@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/28f125c25b.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="/css/Home.css" />
     <link rel="stylesheet" href="/css/Header.css" />
     <link rel="stylesheet" href="/css/Footer.css" />
@@ -17,9 +21,13 @@
 </head>
 <body>
 
+    <div class ="container show-fl">
+        <div class='row'>
+            <div class='col-lg-12 ,col-md-12, col-sm-12, col-xs-auto'>
+
     <div class="HeaderDiv">
         <div class="HeaderFirstDiv">
-            <div class="HeaderLogo">Aw</div>
+            <div class="HeaderLogo">Awww</div>
             <div class="HeaderBtnDiv">
                 <button type='button' class="MusicTalkBtn">MusicTalk</button>
                 <button type='button' class="PlayListBtn">PlayList</button>
@@ -27,6 +35,7 @@
             </div>
             <div class="SearchDiv">
                 <input type="'text" placeholder="검색어를 입력하세요."/>
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
         <div class="LoginAndSignUpDiv">
@@ -37,7 +46,11 @@
 
     <div class="MainDiv">
         <div class="MainTopDiv">
-            <div class="MainPlyPhoto">앨범사진</div>
+            <div class="MainPlyPhoto"> <img src="../img/Lion.jpg" class='LionImg' alt="Lion">앨범사진</div>
+            <div class="MainPlyPhoto"> <img src="../img/Lion.jpg" class='LionImg' alt="Lion">앨범사진</div>
+            <div class="MainPlyPhoto"> <img src="../img/Lion.jpg" class='LionImg' alt="Lion">앨범사진</div>
+            <div class="MainPlyPhoto"> <img src="../img/Lion.jpg" class='LionImg' alt="Lion">앨범사진</div>
+            <div class="MainPlyPhoto"> <img src="../img/Lion.jpg" class='LionImg' alt="Lion">앨범사진</div>
         </div>
 
         <div class="MainBottomDiv">
@@ -57,17 +70,30 @@
                     <input type="checkbox"  class="RealCheckbox"/>
                     <p class="RealRank" id="1">1</p>
                     <div class="RealMusicDetail">
-                        <div class="RealAlbumPhoto"></div>
+                        <div class="RealAlbumPhoto">
+                            <div class="MainPlyPhoto"> <img src="../img/Lion.jpg" class='LionImg2' alt="Lion"></div>
+                        </div>
                         <div class="RealMusicText">
                             <p class="MusicTitle">MusicTitle</p>
                             <p class="MusicSubTitle">MusicSubTitle</p>
                         </div>
                     </div>
                     <p class="RealAlbum">홍길동 1집</p>
-                    <p class="RealLike">🧡</p>
-                    <p class="RealListen">🎧</p>
-                    <p class="RealPush">👜</p>
+                    <p class="RealLike">
+                        <i class="fa-solid fa-heart"></i>
+                    </p>
+                    <p class="RealListen">
+                        <i class="fa-solid fa-play"></i>
+                    </p>
+                    <p class="RealPush">
+                        <i class="fa-solid fa-plus"></i>
+                    </p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+
             </div>
         </div>
     </div>
@@ -76,7 +102,7 @@
         <div class="FooterBigText">for Awww Team</div>
         <div class="FooterSamllText">by sohui, eunbi, juneon, zisoo</div>
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <script src="/JS/MovePage.js"></script>
